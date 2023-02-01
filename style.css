@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 700px , 700px;
+    background-color: hsl(185, 75%, 39%);
+}
+.container{
+    width: 350px;
+    height: 350px;
+    margin: 15% auto;
+    border-radius: 10px;
+    background-color: white;
+}
+.card-top{
+    width: auto;
+    height: 120px;
+    background-image: url("images/bg-pattern-card.svg");
+    border-radius: 10px 10px 0 0;
+}
+.card-buttom img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+    border: 4px solid white;
+    margin: -10% 35%;
+}
+.name-age{
+    margin:50px auto;
+    width: 350px;
+    display: flex;
+    gap: 2px;
+}
+.name-age span{
+    margin-left: 125px;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+.name-age p{
+    margin-left: 10px;
+    font-family: outfit;
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+}
+.country{
+    margin-top: -45px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-family: outfit;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 1px;
+}
+.likes-followers-photo{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+.likes-followers-photo p{
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+    margin: 5px 0px;
+}
